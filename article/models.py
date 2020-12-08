@@ -2,8 +2,6 @@ import time
 from django.db import models
 from account.models import Account
 
-
-# Try to implement this with the Scraper
 class Article(models.Model):
     headline = models.CharField(max_length=200)
     body = models.CharField(max_length=5000)
